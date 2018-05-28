@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://korpling.german.hu-berlin.de/saltnpepper/pepper/schema/10/pepper.rnc" type="application/relax-ng-compact-syntax"?>
+<pepper-job version="1.0">
+<importer name="SpreadsheetImporter" path="/Users/lixia/Documents/ANNIS/pepper/eaf/out/">
+<customization>
+    <property key="primText">utterance_word</property>
+    <property key="includeEmptyPrimCells">true</property>
+    <property key="metaAnnotation">false</property>
+</customization>
+</importer>
+<exporter name="ANNISExporter" path="/Users/lixia/Documents/ANNIS/pepper/eaf/out/annis/"/>
+</pepper-job>
